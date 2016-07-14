@@ -1,0 +1,20 @@
+{
+  "manifest_version": 1,
+
+  "name": "News Now",
+  "description": "Facebook News Bar for all Web Pages",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "earth.png",
+    "default_popup": "index.html"
+  },
+
+  "content_scripts": [
+  {
+  	"matches": ["https://twitter.com/intent/tweet?button_hashtag=NBAVote%20Kyle%20Lowry", "https://twitter.com/intent/tweet?button_hashtag=NBAVote%20Demar%20Derozan"],
+  	"js": ["content.js"]
+  }
+  ]
+
+}
