@@ -6,9 +6,13 @@
   "version": "2.0",
 
   "browser_action": {
-    "default_icon": "earth.png",
-    "default_popup": "index.html"
+    "default_icon": "earth.png"
+    // "default_popup": "index.html"
   },
+
+  "web_accessible_resources": [
+        "index.html"
+    ],
 
   "content_scripts": [
   {
