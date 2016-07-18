@@ -7,7 +7,6 @@
 
   "browser_action": {
     "default_icon": "earth.png"
-    // "default_popup": "index.html"
   },
 
   "web_accessible_resources": [

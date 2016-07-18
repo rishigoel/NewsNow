@@ -1,6 +1,6 @@
-#page {
-	width: 150px;
-	height: 150px;
-	text-align: center;
+.frame {
+	position: absolute;
+	height: 200%;
+	width: 150%;
 }
 
